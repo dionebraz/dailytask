@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# Gerenciador de Tasks – README
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo desenvolvido em [Expo](https://expo.dev) que permite aos usuários gerenciar suas tarefas de forma simples e intuitiva. Você pode criar, editar e excluir tasks conforme suas necessidades.
 
-## Get started
+## Como testar o projeto
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clonar o repositório
+Primeiro, clone o repositório para sua máquina local usando o seguinte comando:
 
 ```bash
-npm run reset-project
+git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Instalar as dependências
+Entre no diretório do projeto clonado e instale as dependências necessárias com o comando:
 
-## Learn more
+```bash
+cd seu-repositorio
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Rodar o aplicativo
+Para iniciar o app, utilize o comando:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+No terminal, você terá opções para rodar o aplicativo em:
 
-Join our community of developers creating universal apps.
+- Um [build de desenvolvimento](https://docs.expo.dev/develop/development-builds/introduction/);
+- Um [emulador Android](https://docs.expo.dev/workflow/android-studio-emulator/);
+- Um [simulador iOS](https://docs.expo.dev/workflow/ios-simulator/);
+- O aplicativo [Expo Go](https://expo.dev/go).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 4. Testar no Expo Go
+1. Baixe o aplicativo **Expo Go** na [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) ou [App Store](https://apps.apple.com/us/app/expo-go/id982107779).
+2. Use o QR code exibido no terminal ou na interface web do Expo para abrir o app diretamente no seu dispositivo.
+
+### 5. Testar no Android Studio
+1. Certifique-se de que o Android Studio esteja instalado e configurado corretamente com um emulador ativo.
+2. No terminal, escolha a opção “Run on Android” para iniciar o app no emulador.
+
+---
+
+## Funcionalidades do projeto
+
+O aplicativo permite:
+- **Criar tarefas:** Adicione novas tasks com facilidade.
+- **Editar tarefas:** Atualize as informações de uma task existente.
+- **Excluir tarefas:** Remova tasks que não são mais necessárias.
+
+Essas funcionalidades são intuitivas e visam melhorar sua produtividade.
+
+---
+
+## Agradecimentos
+
+Obrigado por testar e contribuir para o projeto! Este é um trabalho em andamento, e qualquer sugestão é muito bem-vinda. Sinta-se à vontade para abrir issues ou enviar pull requests no repositório.
+
+Se você gostou deste projeto, dê uma estrela no GitHub! ⭐
+
+---
+
+## Sobre o Expo
+
+Se você é novo no desenvolvimento com Expo, aqui estão alguns recursos úteis para aprender mais:
+
+- [Documentação do Expo](https://docs.expo.dev/): Aprenda desde conceitos básicos até tópicos avançados.
+- [Tutorial do Expo](https://docs.expo.dev/tutorial/introduction/): Um guia passo a passo para criar um projeto.
+- [Comunidade do Expo no Discord](https://chat.expo.dev): Conecte-se com outros desenvolvedores.
+
+Divirta-se desenvolvendo!
+
