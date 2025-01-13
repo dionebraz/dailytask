@@ -8,14 +8,14 @@ Este é um aplicativo desenvolvido em [Expo](https://expo.dev) que permite aos u
 Primeiro, clone o repositório para sua máquina local usando o seguinte comando:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/dionebraz/dailytask.git
 ```
 
 ### 2. Instalar as dependências
 Entre no diretório do projeto clonado e instale as dependências necessárias com o comando:
 
 ```bash
-cd seu-repositorio
+cd daily-task
 npm install
 ```
 
